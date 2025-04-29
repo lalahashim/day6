@@ -56,3 +56,20 @@ button{
     gap: 25px;
     justify-content: center;
 }
+
+@media (max-width:600px) {
+    #Calculator {
+        width: 270px;
+        height: 570px;
+        padding: 18px;
+    }
+    button{
+        height: 45px;
+        width: 45px;
+        font-size: 20px;
+    }
+    .screen{
+        height: 200px;
+        font-size: 35px;
+    }
+}
