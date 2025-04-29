@@ -57,19 +57,25 @@ button{
     justify-content: center;
 }
 
-@media (max-width:600px) {
+@media (max-width: 500px) {
     #Calculator {
-        width: 270px;
-        height: 570px;
-        padding: 18px;
+        padding: 15px;
+        height: auto;
+        width: 250px;
     }
-    button{
-        height: 45px;
-        width: 45px;
-        font-size: 20px;
+
+    .screen {
+        height: 150px;
+        font-size: 5vw;
     }
-    .screen{
-        height: 200px;
-        font-size: 35px;
+
+    button {
+        height: 9vw;
+        width: 9vw;
+        font-size: 4vw;
+    }
+
+    .bottons {
+        gap: 12px;
     }
 }
