@@ -4,7 +4,6 @@ document.addEventListener("keydown", function(event) {
 
     if (button) {
         handleKeyEvent(button)
-        button.click();
         button.classList.add("active");
 
         setTimeout(() => {
